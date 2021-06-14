@@ -8,18 +8,14 @@
 import UIKit
 import SwiftUI
 
-class HomeViewController: UIViewController {
-    
-    lazy var loginView: UIHostingController = {
-        return UIHostingController(rootView:  LoginView())
-    }()
+class HomeViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func showLoginView(_ sender: UIButton) {
-        self.navigationController?.pushViewController(loginView, animated: true)
+        //self.navigationController?.pushViewController(loginView, animated: true)
     }
-
+    
 }
