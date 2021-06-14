@@ -10,6 +10,6 @@ import Foundation
 class FirebaseManager {
     public static let sharedManager = FirebaseManager()
     func getValue() -> String {
-        return "Yap"
+        return "Testing Firebase"
     }
 }

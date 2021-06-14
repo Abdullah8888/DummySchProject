@@ -198,8 +198,9 @@
 		AA90494B26729E3D007CFB48 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				AA90498126767A84007CFB48 /* PersistenceMananager */,
+				AA9049A12677F517007CFB48 /* FirebaseManager */,
 				AA9049622672D0F9007CFB48 /* FirebaseManager.swift */,
+				AA90498126767A84007CFB48 /* PersistenceMananager */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -335,6 +336,29 @@
 				AA90499E26779D49007CFB48 /* OnBoardingCollectionViewCell.xib */,
 			);
 			path = OnBoardingCells;
+			sourceTree = "<group>";
+		};
+		AA9049A12677F517007CFB48 /* FirebaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA9049A22677F529007CFB48 /* Prod */,
+				AA9049A32677F532007CFB48 /* Dev */,
+			);
+			path = FirebaseManager;
+			sourceTree = "<group>";
+		};
+		AA9049A22677F529007CFB48 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		AA9049A32677F532007CFB48 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dev;
 			sourceTree = "<group>";
 		};
 		AD6A824237F0C6D24C8CA3B9 /* Frameworks */ = {
